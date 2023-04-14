@@ -24,6 +24,17 @@ Install my-project with npm
 ```bash
   npm i body-parser
   npm i express
-  cd WeatherProject
+  cd my-project
 ```
     
+## API Reference
+
+#### Get all items
+
+```https
+  GET https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=
+  update const apiKey in app.js  "{openWeatherMap ApiKey}" with your  open openWeatherMap ApiKey
+```
+
+Makes a call to openWeatherMap.org to get the weather for given city.
+
