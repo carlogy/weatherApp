@@ -24,6 +24,6 @@ Install my-project with npm
 ```bash
   npm i body-parser
   npm i express
-  cd my-project
+  cd WeatherProject
 ```
     
